@@ -1,0 +1,51 @@
+.selection
+{
+    color: white;
+    border-radius: 20px;
+    background-color: black;
+    display: flex;
+    border: 5px rgba(255, 255, 255, 0.5) solid;
+
+    flex-direction: row;
+    transition: 0.75s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 9;
+}
+
+.selection[margin]
+{
+    margin: 1rem;
+}
+
+.selection:hover
+{
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.selection *
+{
+    margin: 1rem;
+}
+
+.selectionOverlay
+{
+    z-index: 10;
+    width: 0%;
+    height: 100%;
+    position: fixed;
+    background-color: black;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: 0.75s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.selectionOverlayContainer
+{
+    width: 100%;
+    height: 100%;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}

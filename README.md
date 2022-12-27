@@ -8,3 +8,11 @@ currently used in:
 - my dumb music player which hasnt been updated since a few months ago lol
 
 using sancopublic.ddns.net:5430 as the public ip, ngrok as a secure tunnel alternative and pocketbase as my database
+
+# shit related to the page code
+
+idk if i should use svg or smth sorry im noob
+
+ik code sucks a lot but if it works dont change it
+
+# i forgot to fucking push the old progress im going to kms so fucking hard

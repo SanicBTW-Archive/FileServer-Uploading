@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>File Server Uploading</title>
+
+        <script src="//cdn.jsdelivr.net/npm/eruda"></script>
+        <script>eruda.init();</script>
+
+        <link rel="stylesheet" href="./source/css/global.css">
+
+        <script src="./source/scripts/TimedEvents.js"></script>
+        <script src="./source/scripts/Online.js"></script>
+        <script src="./source/scripts/global.js"></script>
+        <script src="./source/scripts/OfflineScreen.js"></script>
+    </head>
+    <body>
+        <div id="blackTransition" style="width: 100%; height: 100vh; background-color: black; transition: 0.75s cubic-bezier(0.4, 0, 0.2, 1); position: absolute; top: 0px; left: 0px; right: 0px; z-index: 100;"></div>
+
+        <div class="errorContainer" id="notonline">
+
+        </div>
+        <div class="container" id="online">
+            <!-- this shit is the main content -->
+            <div style="margin: 1rem;">
+                <fieldset>
+                    <legend>Available collections</legend>
+                    <div>
+                        
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+
+        <p style="position: fixed; right: 0; bottom: 0; margin: 1rem; color: white; opacity: 0.5; z-index: 99;">Version 1.0 [ FPS: <a id="fps">0</a> | Elapsed: <a id="elapsed">0</a> ]</p>
+    </body>
+</html>
