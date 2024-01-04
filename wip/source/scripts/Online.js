@@ -21,7 +21,7 @@ function doFetch()
                 {
                     if(det == "secure")
                     {
-                        fetch(ldet[1] + "collections/sexysex/records").then((r2) => 
+                        fetch(ldet[1] + "health").then((r2) => 
                         {
                             if (!r2.ok)
                             {
